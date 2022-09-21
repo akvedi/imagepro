@@ -3,3 +3,4 @@ services:
   name: imagor
   env: docker
   plan: free
+  dockerCommand: docker run -p 8000:8000 shumc/imagor -imagor-unsafe -imagor-auto-webp
